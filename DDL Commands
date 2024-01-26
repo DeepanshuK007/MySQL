@@ -1,0 +1,16 @@
+CREATE DATABASE Temp;
+
+USE Temp;
+
+CREATE TABLE student (
+    id INT PRIMARY KEY,
+    name VARCHAR(255)
+);
+
+INSERT INTO student VALUES (1, 'Deep')
+
+SELECT * FROM student;
+
+SHOW TABLES; --Just shows the tables present not the conetnt in it
+
+DROP DATABASE IF EXISTS sample;
